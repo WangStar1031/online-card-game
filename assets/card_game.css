@@ -1,0 +1,341 @@
+body{
+  background-color: aliceblue;
+}
+.centerAlign, .ImageEditing{
+  background-color: #fff;
+  background-image: url("./img/leaf background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  vertical-align: middle;
+  height: 700px;
+  top: calc(40% - 330px);
+}
+#myName{
+  font-size: 1.5em;
+  width: 200px;
+  text-align: center;
+  border: none;
+  color: red;
+  font-weight: bold;
+}
+.stepContent{
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0px;
+}
+.joinContent{
+  background-color: #5061d4;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+}
+.userInfo{
+  background-color: white;
+  top: -10px;
+  margin: 0 0 0 10px;
+}
+.userInfo h2{
+  padding: 0px;
+  margin: 0px;
+}
+#TopicPan{
+  background-image: url("./img/blank Top panel.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 250px;
+  margin: auto;
+}
+.selected{
+  background-color: #1e90ff;
+}
+.topics, .editTopics{
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  margin: auto;
+  font-size: 1.5em;
+}
+.onlineGameScorePan{
+  background-image: url("./img/blank panel 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 180px;
+  height: 55px;
+  line-height: 55px;
+  background-size: cover;
+  margin: auto;
+}
+.onlineGameScorePan table{
+  color: white;
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+#gameTitle{
+  width: 300px;
+  height: 150px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+#gameTitle img{
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+#closeImageEdit{
+  position: absolute;
+  font-size: 120%;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.imageGallery{
+  width: calc(100% - 300px);
+  height: calc(100% - 50px);
+  border: 1px solid black;
+  top: 15px;
+  position: relative;
+  overflow: auto;
+  padding: 5px;
+  float: left;
+  background-color: lightyellow;
+}
+.cardOperation{
+  float: left;
+  padding: 5px;
+}
+.imgGalleryTags{
+  width: 110px;
+  height: 130px;
+  margin: auto;
+  float: left;
+}
+.checkAll{
+  width: 200px;
+}
+.checkImg0{
+  width: 30px;
+  height: 30px;
+}
+.checkImg{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: auto;
+  top: -35px;
+  left: 10px;
+
+}
+.imgTags{
+  width: 100px;
+  height: 120px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.FullScore{
+  margin: 5px;
+  width: 180px;
+  height: 506px;
+  margin-top: -100px;
+}
+#topicContainer, #editTopicContainer{
+  margin-left: 30px;
+  top: 40px;
+  position: relative;
+  height: 165px;
+  width: 125px;
+  overflow: auto;
+}
+.trSelected {
+  background-color: lightgreen;
+}
+.otherScore{
+  height: 65%;
+}
+.myScore,.otherScore{
+  position: relative;
+  width: 90%;
+  background-color: lightyellow;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
+.scoreBox {
+  border: 1px solid black; width: 210px; height: 508px;
+}
+.yourturnHidden{
+  visibility: hidden;
+}
+.yourturnShow{
+  visibility: show;
+}
+#animationTag, #yourTurnTag{
+  position: absolute;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  font-size: 600%;
+}
+.SubCat{
+
+}
+#cmdSendInvite, #cmdRetry, #cmdImgEditing{
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  cursor: pointer;
+}
+#cmdSendInvite{
+  background-image: url("./img/blank panel.png");
+  margin-left: 15px;
+  width: 80px;
+  height: 40px;
+  background-size: contain;
+  line-height: 40px;
+  color: white;
+}
+#cmdRetry{
+  background-image: url("./img/blank panel.png");
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background-size: cover;
+  color: white;
+}
+#cmdImgEditing{
+  background-image: url("./img/image editing.png");
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 36px;
+  color: white;
+}
+button{
+  width: 110px;
+}
+.topicControl{
+  background-color: lightgreen;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+#upload{
+  width: 250px;
+}
+#uploadImageForm{
+  border: 1px solid black;
+}
+select, button, .scoreBox, #uploadImageForm{
+  padding: 5px;
+  margin: 5px;
+  background-color: honeydew;
+}
+option{
+  font-size: 150%;
+}
+.GameBoard{
+  width: 95%;
+  margin: auto;
+}
+.centerClass{
+  text-align: center;
+}
+h1,h2,h3,h4{
+  text-align: center;
+}
+ h3, h4 {
+  margin: 15px;
+}
+#ScorePan{
+  width: 100px;
+  height: 50px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  background-size: cover;
+  background-image: url("./img/blank panel.png");
+}
+#cardTable, #scoreTable, table{
+  margin: auto;
+}
+#cardTable td{
+  padding: 5px;
+  min-width: 50px;
+  min-height: 20px;
+}
+.centerAlign, .ImageEditing{
+  border: 2px solid black;
+  padding: 20px;
+  margin: auto;
+  width: 1200px;
+}
+.flip-container {
+  perspective: 1000px;
+}
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+.flip-container,
+.front,
+.back {
+  width: 120px;
+  height: 160px;
+  border-radius: 8px;
+}
+.flipper {
+  transition: 1s;
+  -webkit-transition: 1s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+}
+.front,
+.back {
+  border: 1px solid black;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+}
+.front img{
+  border-radius: 6px;
+}
+.back {
+  background-color: white;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+#scoreTable{
+  border: 1px solid lightgray;
+  width: 95%;
+  max-height: 340px;
+  overflow: auto;
+}
+#curUsers{
+  border-radius: 8px;
+  width:110px;
+  height: 320px;
+  border:2px solid black;
+}
